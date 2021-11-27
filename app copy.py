@@ -84,7 +84,7 @@ RTC_CONFIGURATION = RTCConfiguration(
 
 
 def main():
-    st.header("Trascender Global")
+    st.header("Trascender Global !")
     st.title("HOR ( Human and Object Recognition)")
 
     object_detection_page = "Real time object detection (sendrecv)"
