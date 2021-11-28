@@ -5,7 +5,7 @@ import threading
 import urllib.request
 from pathlib import Path
 from typing import List, NamedTuple
-
+import base64
 try:
     from typing import Literal
 except ImportError:
@@ -90,11 +90,8 @@ RTC_CONFIGURATION = RTCConfiguration(
 def main():
     st.header("Trascender Global !")
     header_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
-    img_to_bytes("HOR-Header.png")
-    )
-    st.markdown(
-    header_html, unsafe_allow_html=True,
-    )
+    img_to_bytes("HOR-Header.png"))
+    st.markdown(header_html, unsafe_allow_html=True,)
     st.title("HOR ( Human and Object Recognition)")
 
   
