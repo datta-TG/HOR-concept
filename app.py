@@ -31,6 +31,10 @@ HERE = Path(__file__).parent
 
 logger = logging.getLogger(__name__)
 
+def img_to_bytes(img_path):
+    img_bytes = Path(img_path).read_bytes()
+    encoded = base64.b64encode(img_bytes).decode()
+    return encoded
 
 # This code is based on https://github.com/streamlit/demo-self-driving/blob/230245391f2dda0cb464008195a470751c01770b/streamlit_app.py#L48  # noqa: E501
 def download_file(url, download_to: Path, expected_size=None):
@@ -85,6 +89,12 @@ RTC_CONFIGURATION = RTCConfiguration(
 
 def main():
     st.header("Trascender Global !")
+    header_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
+    img_to_bytes("HOR-Header.png")
+    )
+    st.markdown(
+    header_html, unsafe_allow_html=True,
+    )
     st.title("HOR ( Human and Object Recognition)")
 
   
