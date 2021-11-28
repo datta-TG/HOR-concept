@@ -92,8 +92,7 @@ def main():
         <style>
         @font-face {
         font-family: 'ITC Avant Garde Std Bk';
-        font-style: normal;
-        src: url('D:\OneDrive - Trascender Global\HOR-concept\itc-avant-garde-gothic-std-book-58957161d80eb.otf') format("opentype");
+        src: url('itc-avant-garde-gothic-std-book-58957161d80eb.otf') format("opentype");
         }
 
             html, body, [class*="css"]  {
