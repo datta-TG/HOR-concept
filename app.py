@@ -93,9 +93,7 @@ def main():
         @font-face {
         font-family: 'ITC Avant Garde Std Bk';
         font-style: normal;
-        font-weight: 40;
-        src: local('ITC Avant Garde Std Bk');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        src: url('D:\OneDrive - Trascender Global\HOR-concept\itc-avant-garde-gothic-std-book-58957161d80eb.otf') format("opentype");
         }
 
             html, body, [class*="css"]  {
