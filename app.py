@@ -89,28 +89,27 @@ RTC_CONFIGURATION = RTCConfiguration(
 
 def main():
     st.markdown(     """
+        <link href="//db.onlinewebfonts.com/c/9c6858cb7330ff3eb7824dbd2a1ba75a?family=ITCAvantGardeW04-XLt" rel="stylesheet" type="text/css"/>
         <style>
         @font-face {
         font-family: 'ITC Avant Garde Std Bk';
-        src: url('itc-avant-garde-gothic-std-book-58957161d80eb.otf') format("opentype");
+        url("//db.onlinewebfonts.com/t/9c6858cb7330ff3eb7824dbd2a1ba75a.ttf") format("truetype"),
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
-
-            html, body, [class*="css"]  {
-            font-family: 'ITC Avant Garde Std Bk';
-            
-            }
-            </style>
+        .big-font {
+        font-size:300px !important;
+        }
+        </style>
 
             """,
                 unsafe_allow_html=True,
             )
-    st.header("Trascender Global !")
     header_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
     img_to_bytes("HOR-Header.png"))
     st.markdown(header_html, unsafe_allow_html=True,)
-    st.title("HOR ( Human and Object Recognition)")
-
-  
+    st.subheader("")
+    st.subheader("We built intelligent systems to automate corporate processes using image and video classification, text and data extraction, and object and facial visual recognition")
+    st.subheader("This is a proof of concept, you can try it, press START")
     app_object_detection()
 
 
