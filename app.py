@@ -109,7 +109,7 @@ def main():
     st.markdown(header_html, unsafe_allow_html=True,)
     st.subheader("")
     st.subheader("We built intelligent systems to automate corporate processes using image and video classification, text and data extraction, and object and facial visual recognition")
-    st.subheader("This is a proof of concept, you can try it, press START")
+    st.subheader("This is a proof of concept of our HOR line. You can test it from your computer, press START, allow the browser to use your camera and that's it. ")
     app_object_detection()
 
 
