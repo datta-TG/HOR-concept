@@ -109,12 +109,31 @@ def main():
     st.markdown(header_html, unsafe_allow_html=True,)
     st.subheader("")
     st.subheader("We built intelligent systems to automate corporate processes using image and video classification, text and data extraction, and object and facial visual recognition.")
-    st.subheader("This is a proof of concept of our HOR line. You can test it from your computer, select Confidence threshold and press START, allow the browser to use your camera and that's it.")
+    st.subheader("This is a proof of concept of our HOR line. You can test it from your computer, select Confidence threshold, thi ")
+    
+    st.subheader("""
+### Markdown
+Unordered List:
+- First
+- Second
+    - thirdt
+    - Fourth
+
+Ordered List:
+
+1. First item
+1. Second item
+1. Third item
+    1. Indented item
+    2. Indented item
+1. Fourth item 
+""")
     app_object_detection()
 
 
 def app_object_detection():
     """Object detection demo with MobileNet SSD.
+
     This model and code are based on
     https://github.com/robmarkcole/object-detection-app
     """
