@@ -112,14 +112,6 @@ def main():
    
     
     st.subheader("""
-### Markdown
-Unordered List:
-- First
-- Second
-    - thirdt
-    - Fourth
-
-Ordered List:
 
 1. First item
 1. Second item
