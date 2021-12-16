@@ -108,26 +108,15 @@ def main():
     img_to_bytes("HOR-Header.png"))
     st.markdown(header_html, unsafe_allow_html=True,)
     st.subheader("")
-    st.subheader("We built intelligent systems to automate corporate processes using image and video classification, text and data extraction, and object and facial visual recognition.")
-    st.subheader("This is a proof of concept of our HOR line. You can test it from your computer, select Confidence threshold, thi ")
+    st.subheader("""We built intelligent systems to automate corporate processes using image and video classification, text and data extraction, and object and facial visual recognition.""")
+   
     
-    st.subheader("""
-### Markdown
-Unordered List:
-- First
-- Second
-    - thirdt
-    - Fourth
+    st.subheader("""This is a proof of concept of our HOR line. You can test it on your computer by following these steps: 
 
-Ordered List:
+                1. Set the Confidence Threshold, in this way only the objects with a higher accuracy level than the set are shown. 
+                1. Press START, allow the browser to use your camera and that's it.
 
-1. First item
-1. Second item
-1. Third item
-    1. Indented item
-    2. Indented item
-1. Fourth item 
-""")
+                """)
     app_object_detection()
 
 
