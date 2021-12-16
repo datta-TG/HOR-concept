@@ -114,11 +114,9 @@ def main():
     st.subheader("""
 
 This is a proof of concept of our HOR line. You can test it on your computer by following these steps: 
-1. Second item
-1. Third item
-    1. Indented item
-    2. Indented item
-1. Fourth item 
+1. Set the Confidence Threshold, in this way only the objects with a higher accuracy level than the set are shown. 
+1. Press START, allow the browser to use your camera and that's it.
+    
 """
 )
     app_object_detection()
