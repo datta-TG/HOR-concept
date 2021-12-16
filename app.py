@@ -112,11 +112,21 @@ def main():
    
     
     st.subheader("""
+### Markdown
+Unordered List:
+- First
+- Second
+    - thirdt
+    - Fourth
 
+Ordered List:
 
 1. First item
 1. Second item
-
+1. Third item
+    1. Indented item
+    2. Indented item
+1. Fourth item 
 """
 )
     app_object_detection()
