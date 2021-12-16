@@ -114,7 +114,7 @@ def main():
     st.subheader("""
 
 This is a proof of concept of our HOR line. You can test it on your computer by following these steps: 
-1. Set the Confidence Threshold, in this way only the objects with a higher accuracy level than the set are shown. For example, if the Confidence Threshold is set at 0.5 (50 %), that means only objects with an accuracy higher than 0.5 will be shown. 
+1. Set the Confidence Threshold, in this way only the objects with a higher accuracy level than the set are shown. For example, if the Confidence Threshold is set at 0.5 (50 %), that means only objects with an accuracy higher than 0.5 will be shown. The accuracy lets us know how secure is the algorithm with its result.
 1. Press START, allow the browser to use your camera and that's it.
     
 """
