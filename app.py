@@ -113,7 +113,7 @@ def main():
     
     st.subheader("""
 
-1. First item
+This is a proof of concept of our HOR line. You can test it on your computer by following these steps: 
 1. Second item
 1. Third item
     1. Indented item
